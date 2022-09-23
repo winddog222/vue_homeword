@@ -61,10 +61,10 @@ export default {
   methods: {
     handle() {
         if (this.editIndex > -1) {
-            this.$set(this.list, this.editIndex, {...this.user})
+            this.$set(this.list, this.editIndex, { ...this.user })
             this.editIndex = -1
         } else {
-            this.list.push({...this.user})
+            this.list.push({ ...this.user })
         }
         for (let k in this.user) {
             this.user[k] = ''
@@ -75,7 +75,7 @@ export default {
         this.list.splice(index, 1)
     },
     editFn(index) {
-        this.user = {...this.list[index]}
+        this.user = { ...this.list[index] }
         this.editIndex = index
     }
   }
