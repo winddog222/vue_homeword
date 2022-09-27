@@ -9,7 +9,8 @@
       <!-- <UseDog /> -->
       <!-- <UseSellDog /> -->
       <!-- <UseSelectDog /> -->
-      <ShopCar />
+      <!-- <ShopCar /> -->
+      <UseMyCom />
     </div>
 </template>
 
@@ -22,6 +23,7 @@ import UseDog from './components/preview/UseDog.vue'
 import UseSellDog from './components/preview/UseSellDog.vue'
 import UseSelectDog from './components/preview/UseSelectDog.vue'
 import ShopCar from './components/three/ShopCar.vue'
+import UseMyCom from './components/preview/UseMyCom.vue'
 export default {
   components: {
     BuyBook,
@@ -31,7 +33,8 @@ export default {
     UseDog,
     UseSellDog,
     UseSelectDog,
-    ShopCar
+    ShopCar,
+    UseMyCom
   }
 }
 </script>
